@@ -1,0 +1,28 @@
+﻿Build started 25/04/2016 3:04:29 CH.
+     1>Project "C:\Users\elf\Desktop\update-ver-5\seeder\seeder\seeder.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt seeder.cpp
+         seeder.cpp
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\sha1.h(27): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\socket.h(17): warning C4101: 'recvbuf' : unreferenced local variable
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\socket.h(5): warning C4101: 'ptr' : unreferenced local variable
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\socket.h(16): warning C4101: 'iSendResult' : unreferenced local variable
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\function.h(14): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\function.h(22): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\function.h(41): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\function.h(67): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\function.h(185): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\handle.h(36): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\handle.h(69): warning C4101: 'name' : unreferenced local variable
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\handle.h(85): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\handle.h(143): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\handle.h(164): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\update-ver-5\seeder\seeder\seeder.cpp(5): warning C4101: 'socket_3' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\elf\Desktop\update-ver-5\seeder\Debug\seeder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\elf\Desktop\update-ver-5\seeder\Debug\seeder.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\elf\Desktop\update-ver-5\seeder\Debug\seeder.lib" /MACHINE:X86 Debug\seeder.obj
+         seeder.vcxproj -> C:\Users\elf\Desktop\update-ver-5\seeder\Debug\seeder.exe
+     1>Done Building Project "C:\Users\elf\Desktop\update-ver-5\seeder\seeder\seeder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.60

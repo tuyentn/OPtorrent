@@ -1,0 +1,23 @@
+﻿Build started 23/04/2016 11:00:19 SA.
+     1>Project "C:\Users\elf\Desktop\project\client\client\client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>c:\users\elf\desktop\project\client\client\socket.h(30): warning C4101: 'recvbuf' : unreferenced local variable
+     1>c:\users\elf\desktop\project\client\client\function.h(32): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\project\client\client\function.h(46): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\project\client\client\function.h(54): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\project\client\client\function.h(142): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\project\client\client\function.h(236): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\project\client\client\function.h(265): warning C4172: returning address of local variable or temporary
+     1>c:\users\elf\desktop\project\client\client\function.h(323): warning C4172: returning address of local variable or temporary
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\elf\Desktop\project\client\Release\client.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\elf\Desktop\project\client\Release\client.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\elf\Desktop\project\client\Release\client.lib" /MACHINE:X86 /SAFESEH Release\client.obj
+         Generating code
+         Finished generating code
+         client.vcxproj -> C:\Users\elf\Desktop\project\client\Release\client.exe
+     1>Done Building Project "C:\Users\elf\Desktop\project\client\client\client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54
